@@ -52,6 +52,17 @@
         }
       }
     }
+
+    .datatable-column-footer {
+      .datatable-column-footer-inner{
+        white-space: nowrap;
+        .datatable-column-footer-cell{
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
   }
 
   /**
@@ -84,6 +95,7 @@
    */
   .datatable-body-row,
   .datatable-row-center,
+  .datatable-column-footer-inner
   .datatable-header-inner {
     display: -webkit-box;
     display: -moz-box;
@@ -100,7 +112,8 @@
   }
 
   .datatable-body-cell,
-  .datatable-header-cell {
+  .datatable-header-cell
+  .datatable-column-footer-cell {
     overflow-x: hidden;
     vertical-align: top;
     display: inline-block;
@@ -121,6 +134,28 @@
   .datatable-row-group,
   .datatable-row-right {
     position:relative;
+  }
+
+  /**
+   * Column Footer Styles
+   */
+   .datatable-column-footer {
+    display: block;
+    overflow: hidden;
+
+    .datatable-column-footer-inner{
+      align-items: stretch;
+      -webkit-align-items: stretch;
+    }
+
+    .datatable-column-footer-cell {
+      position: relative;
+      display: inline-block;
+
+      .datatable-column-footer-cell-template-wrap {
+        height: inherit;
+      }
+    }
   }
 
   /**

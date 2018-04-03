@@ -26,6 +26,18 @@ import { Component } from '@angular/core';
           </ng-template>
         </ngx-datatable-column>
 
+        <ngx-datatable-column name="Name">
+          <ng-template let-column="column" ngx-datatable-column-footer-template>
+            Holla! {{column.footer}}
+          </ng-template>
+        </ngx-datatable-column>
+
+        <ngx-datatable-column name="Name">
+          <ng-template let-column="column" ngx-datatable-column-footer-template>
+            Holla! {{column.footer}}
+          </ng-template>
+        </ngx-datatable-column>
+
       </ngx-datatable>
     </div>
   `
