@@ -51,7 +51,7 @@ export class FooterDemoComponent {
   rows = [];
 
   columns = [
-    { prop: 'name' },
+    { prop: 'name', footer: 'test' },
     { name: 'Gender' },
     { name: 'Company' }
   ];
