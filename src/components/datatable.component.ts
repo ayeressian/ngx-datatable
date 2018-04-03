@@ -83,13 +83,9 @@ import { BehaviorSubject } from 'rxjs/BehaviorSubject';
         (scroll)="onBodyScroll($event)">
       </datatable-body>
       <datatable-column-footer
-        *ngIf="headerHeight"
-        
-        (sort)="onColumnSort($event)"
-        (resize)="onColumnResize($event)"
-        (reorder)="onColumnReorder($event)"
-        (select)="onHeaderSelect($event)"
-        (columnContextmenu)="onColumnContextmenu($event)">
+        [offsetX]="_offsetX | async"
+        [innerWidth]="_innerWidth"
+        [columns]="_internalColumns">
       </datatable-column-footer>
       <datatable-footer
         *ngIf="footerHeight"

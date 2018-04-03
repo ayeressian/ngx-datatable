@@ -105,6 +105,7 @@
 	/**
 	 * Global Row Styles
 	 */
+	 .datatable-column-footer,
 	 .datatable-header,
 	 .datatable-body {
 		 .datatable-row-left {
@@ -121,6 +122,27 @@
 	    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAYAAAD5PA/NAAAAFklEQVQI12PQkNdi1VTQ5gbSwkAsDQARLAIGtOSFUAAAAABJRU5ErkJggg==);
 		}
 	}
+
+	/**
+	 * Header Styles
+	 */
+	 .datatable-column-footer {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+
+    .datatable-column-footer-cell {
+      text-align: left;
+      padding: .9rem 1.2rem;
+      font-weight: 400;
+      color: rgba(0,0,0,.54);
+      vertical-align: bottom;
+      font-size: 12px;
+      font-weight: 500;
+
+      .datatable-column-footer-cell-wrapper {
+        position: relative;
+      }
+		}
+  }
 
 	/**
 	 * Header Styles
