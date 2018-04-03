@@ -166,6 +166,14 @@ export interface TableColumn {
   prop?: TableColumnProp;
 
   /**
+   * Footer template ref
+   * 
+   * @type {*}
+   * @memberOf TableColumn
+   */
+  footerTemplate?: any;
+
+  /**
    * Cell template ref
    * 
    * @type {*}

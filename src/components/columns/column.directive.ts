@@ -1,6 +1,7 @@
 import { Directive, TemplateRef, ContentChild, Input } from '@angular/core';
 import { DataTableColumnHeaderDirective } from './column-header.directive';
 import { DataTableColumnCellDirective } from './column-cell.directive';
+import { DataTableColumnFooterDirective } from './column-footer.directive';
 import { TableColumnProp } from '../../types';
 
 @Directive({ selector: 'ngx-datatable-column' })
@@ -32,5 +33,9 @@ export class DataTableColumnDirective {
   @Input()
   @ContentChild(DataTableColumnHeaderDirective, { read: TemplateRef }) 
   headerTemplate: TemplateRef<any>;
+
+  @Input()
+  @ContentChild(DataTableColumnFooterDirective, { read: TemplateRef }) 
+  footerTemplate: TemplateRef<any>;
 
 }

@@ -46,6 +46,7 @@ import { Location, LocationStrategy, HashLocationStrategy } from '@angular/commo
               <li><a href="#contextmenu" (click)="state='contextmenu'">Context Menu</a></li>
               <li><a href="#css" (click)="state='css'">CSS Classes</a></li>
               <li><a href="#footer" (click)="state='footer'">Footer Template</a></li>
+              <li><a href="#column-footer" (click)="state='column-footer'">Column Footer Template</a></li>
             </ul>
           </li>
           <li>
@@ -134,6 +135,7 @@ import { Location, LocationStrategy, HashLocationStrategy } from '@angular/commo
         <row-css-demo *ngIf="state === 'css'"></row-css-demo>
         <dynamic-height-demo *ngIf="state === 'dynamic'"></dynamic-height-demo>
         <footer-demo *ngIf="state === 'footer'"></footer-demo>
+        <column-footer-demo *ngIf="state === 'column-footer'"></column-footer-demo>
 
         <!-- Themes -->
         <basic-dark-theme-demo *ngIf="state === 'dark'"></basic-dark-theme-demo>

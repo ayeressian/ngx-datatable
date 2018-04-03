@@ -22,6 +22,7 @@ import { ContextMenuDemoComponent } from './basic/contextmenu.component';
 import { RowCssComponent } from './basic/css.component';
 import { DynamicHeightComponent } from './basic/dynamic-height.component';
 import { FooterDemoComponent } from './basic/footer.component';
+import { ColumnFooterDemoComponent } from './basic/column_footer.component';
 import { RowGroupingComponent } from './basic/row-grouping.component';
 
 // -- Themes
@@ -103,6 +104,7 @@ import { ColumnPinningComponent } from './columns/pinning.component';
     RowCssComponent,
     DynamicHeightComponent,
     FooterDemoComponent,
+    ColumnFooterDemoComponent,
     RowGroupingComponent,
     BootstrapThemeComponent
   ],
