@@ -82,6 +82,10 @@ export function translateTemplates(templates: DataTableColumnDirective[]): any[]
       col.cellTemplate = temp.cellTemplate;
     }
 
+    if(temp.footerTemplate) {
+      col.footerTemplate = temp.footerTemplate;
+    }
+
     result.push(col);
   }
 

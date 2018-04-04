@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, TemplateRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'column-footer-demo',
@@ -20,37 +20,37 @@ import { Component } from '@angular/core';
         [headerHeight]="50"
         [rowHeight]="'auto'">
 
-        <ngx-datatable-column name="Name">
+        <!--<ngx-datatable-column name="Name">
           <ng-template let-column="column" ngx-datatable-column-footer-template>
-            Holla! {{column.footer}}
+            Holla! 1
           </ng-template>
         </ngx-datatable-column>
 
-        <ngx-datatable-column name="Name">
-          <ng-template let-column="column" ngx-datatable-column-footer-template>
-            Holla! {{column.footer}}
-          </ng-template>
-        </ngx-datatable-column>
-
-        <ngx-datatable-column name="Name">
-          <ng-template let-column="column" ngx-datatable-column-footer-template>
-            Holla! {{column.footer}}
-          </ng-template>
-        </ngx-datatable-column>
+        <ngx-datatable-column name="Company">
+        </ngx-datatable-column>-->
 
       </ngx-datatable>
+
+      <ng-template #companyColumnFooterTemplate let-column="column" let-rows="rows">
+        <strong>Column width</strong>: {{column.width}}
+        <p *ngIf="rows">{{rows.length}}</p>        
+      </ng-template>
+
+      <ng-template #companyColumnFooterTemplate let-column="column" let-rows="rows">
+        <strong>Column width</strong>: {{column.width}}
+        <p *ngIf="rows">{{rows.length}}</p>        
+      </ng-template>
+
     </div>
   `
 })
 export class ColumnFooterDemoComponent {
 
+  @ViewChild('companyColumnFooterTemplate') companyColumnFooterTemplate: TemplateRef<any>;
+
   rows = [];
 
-  columns = [
-    { prop: 'name' },
-    { test: 'Gender' },
-    { name: 'Company' }
-  ];
+  columns;
 
   constructor() {
     this.fetch((data) => {
@@ -67,6 +67,13 @@ export class ColumnFooterDemoComponent {
     };
 
     req.send();
+  }
+
+  ngOnInit() {
+    this.columns = [
+      { name: 'Name', footerTemplate: this.companyColumnFooterTemplate, test: 'test'},
+      { name: 'Gender', footerTemplate: this.companyColumnFooterTemplate, test: 'test'},
+      { name: 'Company', footerTemplate: this.companyColumnFooterTemplate, test: 'test'}];
   }
 
 }

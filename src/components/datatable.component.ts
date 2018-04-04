@@ -85,7 +85,8 @@ import { BehaviorSubject } from 'rxjs/BehaviorSubject';
       <datatable-column-footer
         [offsetX]="_offsetX | async"
         [innerWidth]="_innerWidth"
-        [columns]="_internalColumns">
+        [columns]="_internalColumns"
+        [rows]="_internalRows">
       </datatable-column-footer>
       <datatable-footer
         *ngIf="footerHeight"
