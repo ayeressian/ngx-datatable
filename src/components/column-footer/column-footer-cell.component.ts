@@ -11,8 +11,12 @@ import { MouseEvent } from '../../events';
 @Component({
   selector: 'datatable-column-footer-cell',
   template: `
-      <div class="datatable-column-footer-cell-template-wrap">
-        hello
+      <div class="datatable-column-footer-cell-template-wrap">        
+        <ng-template
+          *ngIf="column.footerTemplate"
+          [ngTemplateOutlet]="column.footerTemplate"
+          [ngTemplateOutletContext]="cellContext">
+        </ng-template>
       </div>
     `,
   host: {
@@ -24,12 +28,24 @@ import { MouseEvent } from '../../events';
 export class DataTableColumnFooterCellComponent {
 
   private _column: TableColumn;
+  private _rows: any[];
 
   cellContext: any = {
-    column: this.column
+    column: this.column,
+    rows: this.rows
   };
 
   constructor(private cd: ChangeDetectorRef) { }
+
+  @Input() set rows(rows) {
+    this._rows = rows;
+    this.cellContext.rows = rows;
+    this.cd.markForCheck();
+  };
+
+  get rows(): any[] {
+    return this._rows;
+  }
 
   @Input() set column(column: TableColumn) {
     this._column = column;

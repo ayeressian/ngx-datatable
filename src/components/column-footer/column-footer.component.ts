@@ -16,9 +16,12 @@ import { MouseEvent } from '../../events';
         *ngFor="let colGroup of _columnsByPin; trackBy: trackByGroups"
         [class]="'datatable-row-' + colGroup.type"
         [ngStyle]="_styleByGroup[colGroup.type]">
-        <datatable-column-footer-cell
-        [column]="column"
-        ></datatable-column-footer-cell>
+        <ng-container *ngFor="let column of colGroup.columns; trackBy: columnTrackingFn">
+          <datatable-column-footer-cell
+            *ngIf="column.footerTemplate"
+            [column]="column"
+            [rows]="rows"></datatable-column-footer-cell>
+        </ng-container>        
       </div>
     </div>      
     `,
@@ -38,6 +41,7 @@ export class DataTableColumnFooterComponent {
   };
   _columns: any[];
   _offsetX: number;
+  _rows: any[];
 
   constructor(private cd: ChangeDetectorRef) { }
 
@@ -48,6 +52,13 @@ export class DataTableColumnFooterComponent {
     this._columnsByPin = columnsByPinArr(val);
     this._columnGroupWidths = columnGroupWidths(colsByPin, val);
     this.setStylesByGroup();
+  }
+
+  @Input() set rows(rows) {
+    this._rows = rows;
+  };  
+  get rows() {
+    return this._rows;
   }
 
   @Input() set innerWidth(val: number) {
@@ -101,4 +112,7 @@ export class DataTableColumnFooterComponent {
     return colGroup.type;
   }
 
+  columnTrackingFn(index: number, column: any): any {
+    return column.$$id;
+  }
 }
