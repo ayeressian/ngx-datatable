@@ -5,7 +5,7 @@ import { Component, TemplateRef, ViewChild } from '@angular/core';
   template: `
     <div>
       <h3>
-        Column Footer Template
+        Custom Footer
         <small>
           <a href="https://github.com/swimlane/ngx-datatable/blob/master/demo/basic/footer.component.ts" target="_blank">
             Source
