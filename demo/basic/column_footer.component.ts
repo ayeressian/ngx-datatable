@@ -71,7 +71,7 @@ export class ColumnFooterDemoComponent {
 
   ngOnInit() {
     this.columns = [
-      { name: 'Name', footerTemplate: this.companyColumnFooterTemplate, test: 'test'},
+      { name: 'Name'},
       { name: 'Gender', footerTemplate: this.companyColumnFooterTemplate, test: 'test'},
       { name: 'Company', footerTemplate: this.companyColumnFooterTemplate, test: 'test'}];
   }

@@ -117,7 +117,7 @@ var DataTableColumnFooterComponent = /** @class */ (function () {
     DataTableColumnFooterComponent = __decorate([
         core_1.Component({
             selector: 'datatable-column-footer',
-            template: "\n    <div      \n      [style.width.px]=\"_columnGroupWidths.total\"\n      class=\"datatable-column-footer-inner\">\n      <div\n        *ngFor=\"let colGroup of _columnsByPin; trackBy: trackByGroups\"\n        [class]=\"'datatable-row-' + colGroup.type\"\n        [ngStyle]=\"_styleByGroup[colGroup.type]\">\n        <ng-container *ngFor=\"let column of colGroup.columns; trackBy: columnTrackingFn\">\n          <datatable-column-footer-cell\n            *ngIf=\"column.footerTemplate\"\n            [column]=\"column\"\n            [rows]=\"rows\"></datatable-column-footer-cell>\n        </ng-container>        \n      </div>\n    </div>      \n    ",
+            template: "\n    <div      \n      [style.width.px]=\"_columnGroupWidths.total\"\n      class=\"datatable-column-footer-inner\">\n      <div\n        *ngFor=\"let colGroup of _columnsByPin; trackBy: trackByGroups\"\n        [class]=\"'datatable-row-' + colGroup.type\"\n        [ngStyle]=\"_styleByGroup[colGroup.type]\">        \n        <datatable-column-footer-cell            \n          *ngFor=\"let column of colGroup.columns; trackBy: columnTrackingFn\"\n          [column]=\"column\"\n          [rows]=\"rows\"></datatable-column-footer-cell> \n      </div>\n    </div>      \n    ",
             host: {
                 class: 'datatable-column-footer'
             },

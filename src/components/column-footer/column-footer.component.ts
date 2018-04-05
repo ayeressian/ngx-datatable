@@ -15,13 +15,11 @@ import { MouseEvent } from '../../events';
       <div
         *ngFor="let colGroup of _columnsByPin; trackBy: trackByGroups"
         [class]="'datatable-row-' + colGroup.type"
-        [ngStyle]="_styleByGroup[colGroup.type]">
-        <ng-container *ngFor="let column of colGroup.columns; trackBy: columnTrackingFn">
-          <datatable-column-footer-cell
-            *ngIf="column.footerTemplate"
-            [column]="column"
-            [rows]="rows"></datatable-column-footer-cell>
-        </ng-container>        
+        [ngStyle]="_styleByGroup[colGroup.type]">        
+        <datatable-column-footer-cell            
+          *ngFor="let column of colGroup.columns; trackBy: columnTrackingFn"
+          [column]="column"
+          [rows]="rows"></datatable-column-footer-cell> 
       </div>
     </div>      
     `,
