@@ -456,4 +456,5 @@ export declare class DatatableComponent implements OnInit, DoCheck, AfterViewIni
      * A row was selected from body
      */
     onBodySelect(event: any): void;
+    private sortInternalRows();
 }

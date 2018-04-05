@@ -3,8 +3,6 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-__export(require("./column.directive"));
-__export(require("./column-header.directive"));
-__export(require("./column-cell.directive"));
-__export(require("./column-footer.directive"));
+__export(require("./column-footer.component"));
+__export(require("./column-footer-cell.component"));
 //# sourceMappingURL=index.js.map

@@ -27,6 +27,9 @@
    * Shared Styles
    */
   /**
+   * Column Footer Styles
+   */
+  /**
    * Header Styles
    */
   /**
@@ -53,6 +56,12 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis; }
+  .ngx-datatable.fixed-header .datatable-column-footer .datatable-column-footer-inner {
+    white-space: nowrap; }
+    .ngx-datatable.fixed-header .datatable-column-footer .datatable-column-footer-inner .datatable-column-footer-cell {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
   .ngx-datatable.fixed-row .datatable-scroll {
     white-space: nowrap; }
     .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row {
@@ -67,7 +76,8 @@
         text-overflow: ellipsis; }
   .ngx-datatable .datatable-body-row,
   .ngx-datatable .datatable-row-center,
-  .ngx-datatable .datatable-header-inner {
+  .ngx-datatable .datatable-column-footer-inner
+.datatable-header-inner {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -79,13 +89,15 @@
     -o-flex-flow: row;
     flex-flow: row; }
   .ngx-datatable .datatable-body-cell,
-  .ngx-datatable .datatable-header-cell {
+  .ngx-datatable .datatable-header-cell
+.datatable-column-footer-cell {
     overflow-x: hidden;
     vertical-align: top;
     display: inline-block;
     line-height: 1.625; }
     .ngx-datatable .datatable-body-cell:focus,
-    .ngx-datatable .datatable-header-cell:focus {
+    .ngx-datatable .datatable-header-cell
+.datatable-column-footer-cell:focus {
       outline: none; }
   .ngx-datatable .datatable-row-left,
   .ngx-datatable .datatable-row-right {
@@ -95,6 +107,19 @@
   .ngx-datatable .datatable-row-group,
   .ngx-datatable .datatable-row-right {
     position: relative; }
+  .ngx-datatable .datatable-column-footer {
+    display: block;
+    overflow: hidden; }
+    .ngx-datatable .datatable-column-footer .datatable-column-footer-inner {
+      -webkit-box-align: stretch;
+          -ms-flex-align: stretch;
+              align-items: stretch;
+      -webkit-align-items: stretch; }
+    .ngx-datatable .datatable-column-footer .datatable-column-footer-cell {
+      position: relative;
+      display: inline-block; }
+      .ngx-datatable .datatable-column-footer .datatable-column-footer-cell .datatable-column-footer-cell-template-wrap {
+        height: inherit; }
   .ngx-datatable .datatable-header {
     display: block;
     overflow: hidden; }

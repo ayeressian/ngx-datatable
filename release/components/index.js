@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./datatable.component"));
 __export(require("./header"));
 __export(require("./body"));
+__export(require("./column-footer"));
 __export(require("./footer"));
 __export(require("./columns"));
 __export(require("./row-detail"));

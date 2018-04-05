@@ -21,4 +21,5 @@ export declare class DataTableColumnDirective {
     cellClass: string | ((data: any) => string | any);
     cellTemplate: TemplateRef<any>;
     headerTemplate: TemplateRef<any>;
+    footerTemplate: TemplateRef<any>;
 }

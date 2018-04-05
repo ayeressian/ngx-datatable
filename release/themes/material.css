@@ -11,6 +11,9 @@
 	 * Header Styles
 	 */
   /**
+	 * Header Styles
+	 */
+  /**
 	 * Body Styles
 	 */
   /**
@@ -77,18 +80,32 @@
     padding: .5rem 1.2rem;
     vertical-align: top;
     border-top: 0; }
+  .ngx-datatable.material .datatable-column-footer .datatable-row-left,
   .ngx-datatable.material .datatable-header .datatable-row-left,
   .ngx-datatable.material .datatable-body .datatable-row-left {
     background-color: #FFF;
     background-position: 100% 0;
     background-repeat: repeat-y;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAYAAAD5PA/NAAAAFklEQVQIHWPSkNeSBmJhTQVtbiDNCgASagIIuJX8OgAAAABJRU5ErkJggg==); }
+  .ngx-datatable.material .datatable-column-footer .datatable-row-right,
   .ngx-datatable.material .datatable-header .datatable-row-right,
   .ngx-datatable.material .datatable-body .datatable-row-right {
     background-position: 0 0;
     background-color: #fff;
     background-repeat: repeat-y;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAYAAAD5PA/NAAAAFklEQVQI12PQkNdi1VTQ5gbSwkAsDQARLAIGtOSFUAAAAABJRU5ErkJggg==); }
+  .ngx-datatable.material .datatable-column-footer {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12); }
+    .ngx-datatable.material .datatable-column-footer .datatable-column-footer-cell {
+      text-align: left;
+      padding: .9rem 1.2rem;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.54);
+      vertical-align: bottom;
+      font-size: 12px;
+      font-weight: 500; }
+      .ngx-datatable.material .datatable-column-footer .datatable-column-footer-cell .datatable-column-footer-cell-wrapper {
+        position: relative; }
   .ngx-datatable.material .datatable-header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.12); }
     .ngx-datatable.material .datatable-header .datatable-header-cell {

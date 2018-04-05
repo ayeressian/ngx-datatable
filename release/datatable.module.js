@@ -49,7 +49,10 @@ var NgxDatatableModule = /** @class */ (function () {
                 components_1.DataTableColumnHeaderDirective,
                 components_1.DataTableColumnCellDirective,
                 components_1.DatatableFooterDirective,
-                components_1.DatatableGroupHeaderTemplateDirective
+                components_1.DatatableGroupHeaderTemplateDirective,
+                components_1.DataTableColumnFooterComponent,
+                components_1.DataTableColumnFooterCellComponent,
+                components_1.DataTableColumnFooterDirective,
             ],
             exports: [
                 components_1.DatatableComponent,
@@ -59,6 +62,7 @@ var NgxDatatableModule = /** @class */ (function () {
                 components_1.DataTableColumnDirective,
                 components_1.DataTableColumnHeaderDirective,
                 components_1.DataTableColumnCellDirective,
+                components_1.DataTableColumnFooterDirective,
                 components_1.DataTableFooterTemplateDirective,
                 components_1.DatatableFooterDirective,
                 components_1.DataTablePagerComponent,

@@ -88,7 +88,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, ".ngx-datatable {\n  display: block;\n  overflow: hidden;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  position: relative;\n  -webkit-transform: translate3d(0, 0, 0);\n  /**\n   * Vertical Scrolling Adjustments\n   */\n  /**\n   * Horizontal Scrolling Adjustments\n   */\n  /**\n   * Fixed Header Height Adjustments\n   */\n  /**\n   * Fixed row height adjustments\n   */\n  /**\n   * Shared Styles\n   */\n  /**\n   * Header Styles\n   */\n  /**\n   * Body Styles\n   */\n  /**\n   * Footer Styles\n   */ }\n  .ngx-datatable [hidden] {\n    display: none !important; }\n  .ngx-datatable *, .ngx-datatable *:before, .ngx-datatable *:after {\n    -webkit-box-sizing: border-box;\n    box-sizing: border-box; }\n  .ngx-datatable.scroll-vertical .datatable-body {\n    overflow-y: auto; }\n    .ngx-datatable.scroll-vertical .datatable-body .datatable-row-wrapper {\n      position: absolute; }\n  .ngx-datatable.scroll-horz .datatable-body {\n    overflow-x: auto;\n    -webkit-overflow-scrolling: touch; }\n  .ngx-datatable.fixed-header .datatable-header .datatable-header-inner {\n    white-space: nowrap; }\n    .ngx-datatable.fixed-header .datatable-header .datatable-header-inner .datatable-header-cell {\n      white-space: nowrap;\n      overflow: hidden;\n      text-overflow: ellipsis; }\n  .ngx-datatable.fixed-row .datatable-scroll {\n    white-space: nowrap; }\n    .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row {\n      white-space: nowrap; }\n      .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row .datatable-body-cell {\n        overflow: hidden;\n        white-space: nowrap;\n        text-overflow: ellipsis; }\n      .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row .datatable-body-group-cell {\n        overflow: hidden;\n        white-space: nowrap;\n        text-overflow: ellipsis; }\n  .ngx-datatable .datatable-body-row,\n  .ngx-datatable .datatable-row-center,\n  .ngx-datatable .datatable-header-inner {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -ms-flex-flow: row;\n    -o-flex-flow: row;\n    flex-flow: row; }\n  .ngx-datatable .datatable-body-cell,\n  .ngx-datatable .datatable-header-cell {\n    overflow-x: hidden;\n    vertical-align: top;\n    display: inline-block;\n    line-height: 1.625; }\n    .ngx-datatable .datatable-body-cell:focus,\n    .ngx-datatable .datatable-header-cell:focus {\n      outline: none; }\n  .ngx-datatable .datatable-row-left,\n  .ngx-datatable .datatable-row-right {\n    z-index: 9; }\n  .ngx-datatable .datatable-row-left,\n  .ngx-datatable .datatable-row-center,\n  .ngx-datatable .datatable-row-group,\n  .ngx-datatable .datatable-row-right {\n    position: relative; }\n  .ngx-datatable .datatable-header {\n    display: block;\n    overflow: hidden; }\n    .ngx-datatable .datatable-header .datatable-header-inner {\n      -webkit-box-align: stretch;\n          -ms-flex-align: stretch;\n              align-items: stretch;\n      -webkit-align-items: stretch; }\n    .ngx-datatable .datatable-header .datatable-header-cell {\n      position: relative;\n      display: inline-block; }\n      .ngx-datatable .datatable-header .datatable-header-cell.sortable .datatable-header-cell-wrapper {\n        cursor: pointer; }\n      .ngx-datatable .datatable-header .datatable-header-cell.longpress .datatable-header-cell-wrapper {\n        cursor: move; }\n      .ngx-datatable .datatable-header .datatable-header-cell .sort-btn {\n        line-height: 100%;\n        vertical-align: middle;\n        display: inline-block;\n        cursor: pointer; }\n      .ngx-datatable .datatable-header .datatable-header-cell .resize-handle, .ngx-datatable .datatable-header .datatable-header-cell .resize-handle--not-resizable {\n        display: inline-block;\n        position: absolute;\n        right: 0;\n        top: 0;\n        bottom: 0;\n        width: 5px;\n        padding: 0 4px;\n        visibility: hidden; }\n      .ngx-datatable .datatable-header .datatable-header-cell .resize-handle {\n        cursor: ew-resize; }\n      .ngx-datatable .datatable-header .datatable-header-cell.resizeable:hover .resize-handle {\n        visibility: visible; }\n      .ngx-datatable .datatable-header .datatable-header-cell:hover .resize-handle--not-resizable {\n        visibility: visible; }\n      .ngx-datatable .datatable-header .datatable-header-cell .datatable-header-cell-template-wrap {\n        height: inherit; }\n  .ngx-datatable .datatable-body {\n    position: relative;\n    z-index: 10;\n    display: block; }\n    .ngx-datatable .datatable-body .datatable-scroll {\n      display: inline-block; }\n    .ngx-datatable .datatable-body .datatable-row-detail {\n      overflow-y: hidden; }\n    .ngx-datatable .datatable-body .datatable-row-wrapper {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n      flex-direction: column; }\n    .ngx-datatable .datatable-body .datatable-body-row {\n      outline: none; }\n      .ngx-datatable .datatable-body .datatable-body-row > div {\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex; }\n  .ngx-datatable .datatable-footer {\n    display: block;\n    width: 100%; }\n    .ngx-datatable .datatable-footer .datatable-footer-inner {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      width: 100%; }\n    .ngx-datatable .datatable-footer .selected-count .page-count {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 40%;\n              flex: 1 1 40%; }\n    .ngx-datatable .datatable-footer .selected-count .datatable-pager {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 60%;\n              flex: 1 1 60%; }\n    .ngx-datatable .datatable-footer .page-count {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 20%;\n              flex: 1 1 20%; }\n    .ngx-datatable .datatable-footer .datatable-pager {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 80%;\n              flex: 1 1 80%;\n      text-align: right; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager,\n      .ngx-datatable .datatable-footer .datatable-pager .pager li {\n        padding: 0;\n        margin: 0;\n        display: inline-block;\n        list-style: none; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager li, .ngx-datatable .datatable-footer .datatable-pager .pager li a {\n        outline: none; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager li a {\n        cursor: pointer;\n        display: inline-block; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager li.disabled a {\n        cursor: not-allowed; }\n", ""]);
+exports.push([module.i, ".ngx-datatable {\n  display: block;\n  overflow: hidden;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  position: relative;\n  -webkit-transform: translate3d(0, 0, 0);\n  /**\n   * Vertical Scrolling Adjustments\n   */\n  /**\n   * Horizontal Scrolling Adjustments\n   */\n  /**\n   * Fixed Header Height Adjustments\n   */\n  /**\n   * Fixed row height adjustments\n   */\n  /**\n   * Shared Styles\n   */\n  /**\n   * Column Footer Styles\n   */\n  /**\n   * Header Styles\n   */\n  /**\n   * Body Styles\n   */\n  /**\n   * Footer Styles\n   */ }\n  .ngx-datatable [hidden] {\n    display: none !important; }\n  .ngx-datatable *, .ngx-datatable *:before, .ngx-datatable *:after {\n    -webkit-box-sizing: border-box;\n    box-sizing: border-box; }\n  .ngx-datatable.scroll-vertical .datatable-body {\n    overflow-y: auto; }\n    .ngx-datatable.scroll-vertical .datatable-body .datatable-row-wrapper {\n      position: absolute; }\n  .ngx-datatable.scroll-horz .datatable-body {\n    overflow-x: auto;\n    -webkit-overflow-scrolling: touch; }\n  .ngx-datatable.fixed-header .datatable-header .datatable-header-inner {\n    white-space: nowrap; }\n    .ngx-datatable.fixed-header .datatable-header .datatable-header-inner .datatable-header-cell {\n      white-space: nowrap;\n      overflow: hidden;\n      text-overflow: ellipsis; }\n  .ngx-datatable.fixed-header .datatable-column-footer .datatable-column-footer-inner {\n    white-space: nowrap; }\n    .ngx-datatable.fixed-header .datatable-column-footer .datatable-column-footer-inner .datatable-column-footer-cell {\n      white-space: nowrap;\n      overflow: hidden;\n      text-overflow: ellipsis; }\n  .ngx-datatable.fixed-row .datatable-scroll {\n    white-space: nowrap; }\n    .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row {\n      white-space: nowrap; }\n      .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row .datatable-body-cell {\n        overflow: hidden;\n        white-space: nowrap;\n        text-overflow: ellipsis; }\n      .ngx-datatable.fixed-row .datatable-scroll .datatable-body-row .datatable-body-group-cell {\n        overflow: hidden;\n        white-space: nowrap;\n        text-overflow: ellipsis; }\n  .ngx-datatable .datatable-body-row,\n  .ngx-datatable .datatable-row-center,\n  .ngx-datatable .datatable-column-footer-inner\n.datatable-header-inner {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -ms-flex-flow: row;\n    -o-flex-flow: row;\n    flex-flow: row; }\n  .ngx-datatable .datatable-body-cell,\n  .ngx-datatable .datatable-header-cell\n.datatable-column-footer-cell {\n    overflow-x: hidden;\n    vertical-align: top;\n    display: inline-block;\n    line-height: 1.625; }\n    .ngx-datatable .datatable-body-cell:focus,\n    .ngx-datatable .datatable-header-cell\n.datatable-column-footer-cell:focus {\n      outline: none; }\n  .ngx-datatable .datatable-row-left,\n  .ngx-datatable .datatable-row-right {\n    z-index: 9; }\n  .ngx-datatable .datatable-row-left,\n  .ngx-datatable .datatable-row-center,\n  .ngx-datatable .datatable-row-group,\n  .ngx-datatable .datatable-row-right {\n    position: relative; }\n  .ngx-datatable .datatable-column-footer {\n    display: block;\n    overflow: hidden; }\n    .ngx-datatable .datatable-column-footer .datatable-column-footer-inner {\n      -webkit-box-align: stretch;\n          -ms-flex-align: stretch;\n              align-items: stretch;\n      -webkit-align-items: stretch; }\n    .ngx-datatable .datatable-column-footer .datatable-column-footer-cell {\n      position: relative;\n      display: inline-block; }\n      .ngx-datatable .datatable-column-footer .datatable-column-footer-cell .datatable-column-footer-cell-template-wrap {\n        height: inherit; }\n  .ngx-datatable .datatable-header {\n    display: block;\n    overflow: hidden; }\n    .ngx-datatable .datatable-header .datatable-header-inner {\n      -webkit-box-align: stretch;\n          -ms-flex-align: stretch;\n              align-items: stretch;\n      -webkit-align-items: stretch; }\n    .ngx-datatable .datatable-header .datatable-header-cell {\n      position: relative;\n      display: inline-block; }\n      .ngx-datatable .datatable-header .datatable-header-cell.sortable .datatable-header-cell-wrapper {\n        cursor: pointer; }\n      .ngx-datatable .datatable-header .datatable-header-cell.longpress .datatable-header-cell-wrapper {\n        cursor: move; }\n      .ngx-datatable .datatable-header .datatable-header-cell .sort-btn {\n        line-height: 100%;\n        vertical-align: middle;\n        display: inline-block;\n        cursor: pointer; }\n      .ngx-datatable .datatable-header .datatable-header-cell .resize-handle, .ngx-datatable .datatable-header .datatable-header-cell .resize-handle--not-resizable {\n        display: inline-block;\n        position: absolute;\n        right: 0;\n        top: 0;\n        bottom: 0;\n        width: 5px;\n        padding: 0 4px;\n        visibility: hidden; }\n      .ngx-datatable .datatable-header .datatable-header-cell .resize-handle {\n        cursor: ew-resize; }\n      .ngx-datatable .datatable-header .datatable-header-cell.resizeable:hover .resize-handle {\n        visibility: visible; }\n      .ngx-datatable .datatable-header .datatable-header-cell:hover .resize-handle--not-resizable {\n        visibility: visible; }\n      .ngx-datatable .datatable-header .datatable-header-cell .datatable-header-cell-template-wrap {\n        height: inherit; }\n  .ngx-datatable .datatable-body {\n    position: relative;\n    z-index: 10;\n    display: block; }\n    .ngx-datatable .datatable-body .datatable-scroll {\n      display: inline-block; }\n    .ngx-datatable .datatable-body .datatable-row-detail {\n      overflow-y: hidden; }\n    .ngx-datatable .datatable-body .datatable-row-wrapper {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n      flex-direction: column; }\n    .ngx-datatable .datatable-body .datatable-body-row {\n      outline: none; }\n      .ngx-datatable .datatable-body .datatable-body-row > div {\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex; }\n  .ngx-datatable .datatable-footer {\n    display: block;\n    width: 100%; }\n    .ngx-datatable .datatable-footer .datatable-footer-inner {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      width: 100%; }\n    .ngx-datatable .datatable-footer .selected-count .page-count {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 40%;\n              flex: 1 1 40%; }\n    .ngx-datatable .datatable-footer .selected-count .datatable-pager {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 60%;\n              flex: 1 1 60%; }\n    .ngx-datatable .datatable-footer .page-count {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 20%;\n              flex: 1 1 20%; }\n    .ngx-datatable .datatable-footer .datatable-pager {\n      -webkit-box-flex: 1;\n          -ms-flex: 1 1 80%;\n              flex: 1 1 80%;\n      text-align: right; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager,\n      .ngx-datatable .datatable-footer .datatable-pager .pager li {\n        padding: 0;\n        margin: 0;\n        display: inline-block;\n        list-style: none; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager li, .ngx-datatable .datatable-footer .datatable-pager .pager li a {\n        outline: none; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager li a {\n        cursor: pointer;\n        display: inline-block; }\n      .ngx-datatable .datatable-footer .datatable-pager .pager li.disabled a {\n        cursor: not-allowed; }\n", ""]);
 
 // exports
 
@@ -2242,6 +2242,272 @@ exports.DataTableSelectionComponent = DataTableSelectionComponent;
 
 /***/ }),
 
+/***/ "./src/components/column-footer/column-footer-cell.component.ts":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__("@angular/core");
+var DataTableColumnFooterCellComponent = /** @class */ (function () {
+    function DataTableColumnFooterCellComponent(cd) {
+        this.cd = cd;
+        this.cellContext = {
+            column: this.column,
+            rows: this.rows
+        };
+    }
+    Object.defineProperty(DataTableColumnFooterCellComponent.prototype, "rows", {
+        get: function () {
+            return this._rows;
+        },
+        set: function (rows) {
+            this._rows = rows;
+            this.cellContext.rows = rows;
+            this.cd.markForCheck();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    ;
+    Object.defineProperty(DataTableColumnFooterCellComponent.prototype, "column", {
+        get: function () {
+            return this._column;
+        },
+        set: function (column) {
+            this._column = column;
+            this.cellContext.column = column;
+            this.cd.markForCheck();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DataTableColumnFooterCellComponent.prototype, "minWidth", {
+        get: function () {
+            return this.column.minWidth;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DataTableColumnFooterCellComponent.prototype, "maxWidth", {
+        get: function () {
+            return this.column.maxWidth;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DataTableColumnFooterCellComponent.prototype, "width", {
+        get: function () {
+            return this.column.width;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Object),
+        __metadata("design:paramtypes", [Object])
+    ], DataTableColumnFooterCellComponent.prototype, "rows", null);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Object),
+        __metadata("design:paramtypes", [Object])
+    ], DataTableColumnFooterCellComponent.prototype, "column", null);
+    __decorate([
+        core_1.HostBinding('style.minWidth.px'),
+        __metadata("design:type", Number),
+        __metadata("design:paramtypes", [])
+    ], DataTableColumnFooterCellComponent.prototype, "minWidth", null);
+    __decorate([
+        core_1.HostBinding('style.maxWidth.px'),
+        __metadata("design:type", Number),
+        __metadata("design:paramtypes", [])
+    ], DataTableColumnFooterCellComponent.prototype, "maxWidth", null);
+    __decorate([
+        core_1.HostBinding('style.width.px'),
+        __metadata("design:type", Number),
+        __metadata("design:paramtypes", [])
+    ], DataTableColumnFooterCellComponent.prototype, "width", null);
+    DataTableColumnFooterCellComponent = __decorate([
+        core_1.Component({
+            selector: 'datatable-column-footer-cell',
+            template: "\n      <div class=\"datatable-column-footer-cell-template-wrap\">        \n        <ng-template\n          *ngIf=\"column.footerTemplate\"\n          [ngTemplateOutlet]=\"column.footerTemplate\"\n          [ngTemplateOutletContext]=\"cellContext\">\n        </ng-template>\n      </div>\n    ",
+            host: {
+                class: 'datatable-column-footer-cell'
+            },
+            changeDetection: core_1.ChangeDetectionStrategy.OnPush
+        }),
+        __metadata("design:paramtypes", [core_1.ChangeDetectorRef])
+    ], DataTableColumnFooterCellComponent);
+    return DataTableColumnFooterCellComponent;
+}());
+exports.DataTableColumnFooterCellComponent = DataTableColumnFooterCellComponent;
+
+
+/***/ }),
+
+/***/ "./src/components/column-footer/column-footer.component.ts":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__("@angular/core");
+var utils_1 = __webpack_require__("./src/utils/index.ts");
+var DataTableColumnFooterComponent = /** @class */ (function () {
+    function DataTableColumnFooterComponent(cd) {
+        this.cd = cd;
+        this._styleByGroup = {
+            left: {},
+            center: {},
+            right: {}
+        };
+    }
+    Object.defineProperty(DataTableColumnFooterComponent.prototype, "columns", {
+        set: function (val) {
+            this._columns = val;
+            var colsByPin = utils_1.columnsByPin(val);
+            this._columnsByPin = utils_1.columnsByPinArr(val);
+            this._columnGroupWidths = utils_1.columnGroupWidths(colsByPin, val);
+            this.setStylesByGroup();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DataTableColumnFooterComponent.prototype, "rows", {
+        get: function () {
+            return this._rows;
+        },
+        set: function (rows) {
+            this._rows = rows;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    ;
+    Object.defineProperty(DataTableColumnFooterComponent.prototype, "innerWidth", {
+        get: function () {
+            return this._innerWidth;
+        },
+        set: function (val) {
+            this._innerWidth = val;
+            if (this._columns) {
+                var colByPin = utils_1.columnsByPin(this._columns);
+                this._columnGroupWidths = utils_1.columnGroupWidths(colByPin, this._columns);
+                this.setStylesByGroup();
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DataTableColumnFooterComponent.prototype, "offsetX", {
+        get: function () { return this._offsetX; },
+        set: function (val) {
+            this._offsetX = val;
+            this.setStylesByGroup();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    DataTableColumnFooterComponent.prototype.setStylesByGroup = function () {
+        this._styleByGroup['left'] = this.calcStylesByGroup('left');
+        this._styleByGroup['center'] = this.calcStylesByGroup('center');
+        this._styleByGroup['right'] = this.calcStylesByGroup('right');
+        this.cd.detectChanges();
+    };
+    DataTableColumnFooterComponent.prototype.calcStylesByGroup = function (group) {
+        var widths = this._columnGroupWidths;
+        var offsetX = this.offsetX;
+        var styles = {
+            width: widths[group] + "px"
+        };
+        if (group === 'center') {
+            utils_1.translateXY(styles, offsetX * -1, 0);
+        }
+        else if (group === 'right') {
+            var totalDiff = widths.total - this.innerWidth;
+            var offset = totalDiff * -1;
+            utils_1.translateXY(styles, offset, 0);
+        }
+        return styles;
+    };
+    DataTableColumnFooterComponent.prototype.trackByGroups = function (index, colGroup) {
+        return colGroup.type;
+    };
+    DataTableColumnFooterComponent.prototype.columnTrackingFn = function (index, column) {
+        return column.$$id;
+    };
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Array),
+        __metadata("design:paramtypes", [Array])
+    ], DataTableColumnFooterComponent.prototype, "columns", null);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Object),
+        __metadata("design:paramtypes", [Object])
+    ], DataTableColumnFooterComponent.prototype, "rows", null);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Number),
+        __metadata("design:paramtypes", [Number])
+    ], DataTableColumnFooterComponent.prototype, "innerWidth", null);
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", Number),
+        __metadata("design:paramtypes", [Number])
+    ], DataTableColumnFooterComponent.prototype, "offsetX", null);
+    DataTableColumnFooterComponent = __decorate([
+        core_1.Component({
+            selector: 'datatable-column-footer',
+            template: "\n    <div      \n      [style.width.px]=\"_columnGroupWidths.total\"\n      class=\"datatable-column-footer-inner\">\n      <div\n        *ngFor=\"let colGroup of _columnsByPin; trackBy: trackByGroups\"\n        [class]=\"'datatable-row-' + colGroup.type\"\n        [ngStyle]=\"_styleByGroup[colGroup.type]\">\n        <ng-container *ngFor=\"let column of colGroup.columns; trackBy: columnTrackingFn\">\n          <datatable-column-footer-cell\n            *ngIf=\"column.footerTemplate\"\n            [column]=\"column\"\n            [rows]=\"rows\"></datatable-column-footer-cell>\n        </ng-container>        \n      </div>\n    </div>      \n    ",
+            host: {
+                class: 'datatable-column-footer'
+            },
+            changeDetection: core_1.ChangeDetectionStrategy.OnPush
+        }),
+        __metadata("design:paramtypes", [core_1.ChangeDetectorRef])
+    ], DataTableColumnFooterComponent);
+    return DataTableColumnFooterComponent;
+}());
+exports.DataTableColumnFooterComponent = DataTableColumnFooterComponent;
+
+
+/***/ }),
+
+/***/ "./src/components/column-footer/index.ts":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+Object.defineProperty(exports, "__esModule", { value: true });
+__export(__webpack_require__("./src/components/column-footer/column-footer.component.ts"));
+__export(__webpack_require__("./src/components/column-footer/column-footer-cell.component.ts"));
+
+
+/***/ }),
+
 /***/ "./src/components/columns/column-cell.directive.ts":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2269,6 +2535,37 @@ var DataTableColumnCellDirective = /** @class */ (function () {
     return DataTableColumnCellDirective;
 }());
 exports.DataTableColumnCellDirective = DataTableColumnCellDirective;
+
+
+/***/ }),
+
+/***/ "./src/components/columns/column-footer.directive.ts":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = __webpack_require__("@angular/core");
+var DataTableColumnFooterDirective = /** @class */ (function () {
+    function DataTableColumnFooterDirective(template) {
+        this.template = template;
+    }
+    DataTableColumnFooterDirective = __decorate([
+        core_1.Directive({ selector: '[ngx-datatable-column-footer-template]' }),
+        __metadata("design:paramtypes", [core_1.TemplateRef])
+    ], DataTableColumnFooterDirective);
+    return DataTableColumnFooterDirective;
+}());
+exports.DataTableColumnFooterDirective = DataTableColumnFooterDirective;
 
 
 /***/ }),
@@ -2322,6 +2619,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__("@angular/core");
 var column_header_directive_1 = __webpack_require__("./src/components/columns/column-header.directive.ts");
 var column_cell_directive_1 = __webpack_require__("./src/components/columns/column-cell.directive.ts");
+var column_footer_directive_1 = __webpack_require__("./src/components/columns/column-footer.directive.ts");
 var DataTableColumnDirective = /** @class */ (function () {
     function DataTableColumnDirective() {
     }
@@ -2407,6 +2705,11 @@ var DataTableColumnDirective = /** @class */ (function () {
         core_1.ContentChild(column_header_directive_1.DataTableColumnHeaderDirective, { read: core_1.TemplateRef }),
         __metadata("design:type", core_1.TemplateRef)
     ], DataTableColumnDirective.prototype, "headerTemplate", void 0);
+    __decorate([
+        core_1.Input(),
+        core_1.ContentChild(column_footer_directive_1.DataTableColumnFooterDirective, { read: core_1.TemplateRef }),
+        __metadata("design:type", core_1.TemplateRef)
+    ], DataTableColumnDirective.prototype, "footerTemplate", void 0);
     DataTableColumnDirective = __decorate([
         core_1.Directive({ selector: 'ngx-datatable-column' })
     ], DataTableColumnDirective);
@@ -2429,6 +2732,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __export(__webpack_require__("./src/components/columns/column.directive.ts"));
 __export(__webpack_require__("./src/components/columns/column-header.directive.ts"));
 __export(__webpack_require__("./src/components/columns/column-cell.directive.ts"));
+__export(__webpack_require__("./src/components/columns/column-footer.directive.ts"));
 
 
 /***/ }),
@@ -2664,7 +2968,7 @@ var DatatableComponent = /** @class */ (function () {
             }
             // auto sort on new updates
             if (!this.externalSorting) {
-                this._internalRows = utils_1.sortRows(this._internalRows, this._internalColumns, this.sorts);
+                this.sortInternalRows();
             }
             // recalculate sizes/etc
             this.recalculate();
@@ -2928,7 +3232,7 @@ var DatatableComponent = /** @class */ (function () {
     DatatableComponent.prototype.ngAfterViewInit = function () {
         var _this = this;
         if (!this.externalSorting) {
-            this._internalRows = utils_1.sortRows(this._internalRows, this._internalColumns, this.sorts);
+            this.sortInternalRows();
         }
         // this has to be done to prevent the change detection
         // tree from freaking out because we are readjusting
@@ -2968,6 +3272,7 @@ var DatatableComponent = /** @class */ (function () {
                 this._internalColumns = utils_1.translateTemplates(arr);
                 utils_1.setColumnDefaults(this._internalColumns);
                 this.recalculateColumns();
+                this.sortInternalRows();
                 this.cd.markForCheck();
             }
         }
@@ -3004,7 +3309,7 @@ var DatatableComponent = /** @class */ (function () {
     DatatableComponent.prototype.ngDoCheck = function () {
         if (this.rowDiffer.diff(this.rows)) {
             if (!this.externalSorting) {
-                this._internalRows = utils_1.sortRows(this._internalRows, this._internalColumns, this.sorts);
+                this.sortInternalRows();
             }
             else {
                 this._internalRows = this.rows.slice();
@@ -3232,14 +3537,13 @@ var DatatableComponent = /** @class */ (function () {
                 selected: this.selected
             });
         }
-        var sorts = event.sorts;
+        this.sorts = event.sorts;
         // this could be optimized better since it will resort
         // the rows again on the 'push' detection...
         if (this.externalSorting === false) {
             // don't use normal setter so we don't resort
-            this._internalRows = utils_1.sortRows(this._internalRows, this._internalColumns, sorts);
+            this.sortInternalRows();
         }
-        this.sorts = sorts;
         // Always go to first page when sorting to see the newly sorted data
         this.offset = 0;
         this.bodyComponent.updateOffsetY(this.offset);
@@ -3281,6 +3585,9 @@ var DatatableComponent = /** @class */ (function () {
      */
     DatatableComponent.prototype.onBodySelect = function (event) {
         this.select.emit(event);
+    };
+    DatatableComponent.prototype.sortInternalRows = function () {
+        this._internalRows = utils_1.sortRows(this._internalRows, this._internalColumns, this.sorts);
     };
     __decorate([
         core_1.Input(),
@@ -3529,7 +3836,7 @@ var DatatableComponent = /** @class */ (function () {
     DatatableComponent = __decorate([
         core_1.Component({
             selector: 'ngx-datatable',
-            template: "\n    <div\n      visibilityObserver\n      (visible)=\"recalculate()\">\n      <datatable-header\n        *ngIf=\"headerHeight\"\n        [sorts]=\"sorts\"\n        [sortType]=\"sortType\"\n        [scrollbarH]=\"scrollbarH\"\n        [innerWidth]=\"_innerWidth\"\n        [offsetX]=\"_offsetX | async\"\n        [dealsWithGroup]=\"groupedRows\"\n        [columns]=\"_internalColumns\"\n        [headerHeight]=\"headerHeight\"\n        [reorderable]=\"reorderable\"\n        [sortAscendingIcon]=\"cssClasses.sortAscending\"\n        [sortDescendingIcon]=\"cssClasses.sortDescending\"\n        [allRowsSelected]=\"allRowsSelected\"\n        [selectionType]=\"selectionType\"\n        (sort)=\"onColumnSort($event)\"\n        (resize)=\"onColumnResize($event)\"\n        (reorder)=\"onColumnReorder($event)\"\n        (select)=\"onHeaderSelect($event)\"\n        (columnContextmenu)=\"onColumnContextmenu($event)\">\n      </datatable-header>\n      <datatable-body\n        [groupRowsBy]=\"groupRowsBy\"\n        [groupedRows]=\"groupedRows\"\n        [rows]=\"_internalRows\"\n        [groupExpansionDefault]=\"groupExpansionDefault\"\n        [scrollbarV]=\"scrollbarV\"\n        [scrollbarH]=\"scrollbarH\"\n        [virtualization]=\"virtualization\"\n        [loadingIndicator]=\"loadingIndicator\"\n        [externalPaging]=\"externalPaging\"\n        [rowHeight]=\"rowHeight\"\n        [rowCount]=\"rowCount\"\n        [offset]=\"offset\"\n        [trackByProp]=\"trackByProp\"\n        [columns]=\"_internalColumns\"\n        [pageSize]=\"pageSize\"\n        [offsetX]=\"_offsetX | async\"\n        [rowDetail]=\"rowDetail\"\n        [groupHeader]=\"groupHeader\"\n        [selected]=\"selected\"\n        [innerWidth]=\"_innerWidth\"\n        [bodyHeight]=\"bodyHeight\"\n        [selectionType]=\"selectionType\"\n        [emptyMessage]=\"messages.emptyMessage\"\n        [rowIdentity]=\"rowIdentity\"\n        [rowClass]=\"rowClass\"\n        [selectCheck]=\"selectCheck\"\n        [displayCheck]=\"displayCheck\"\n        (page)=\"onBodyPage($event)\"\n        (activate)=\"activate.emit($event)\"\n        (rowContextmenu)=\"onRowContextmenu($event)\"\n        (select)=\"onBodySelect($event)\"\n        (scroll)=\"onBodyScroll($event)\">\n      </datatable-body>\n      <datatable-footer\n        *ngIf=\"footerHeight\"\n        [rowCount]=\"rowCount\"\n        [pageSize]=\"pageSize\"\n        [offset]=\"offset\"\n        [footerHeight]=\"footerHeight\"\n        [footerTemplate]=\"footer\"\n        [totalMessage]=\"messages.totalMessage\"\n        [pagerLeftArrowIcon]=\"cssClasses.pagerLeftArrow\"\n        [pagerRightArrowIcon]=\"cssClasses.pagerRightArrow\"\n        [pagerPreviousIcon]=\"cssClasses.pagerPrevious\"\n        [selectedCount]=\"selected.length\"\n        [selectedMessage]=\"!!selectionType && messages.selectedMessage\"\n        [pagerNextIcon]=\"cssClasses.pagerNext\"\n        (page)=\"onFooterPage($event)\">\n      </datatable-footer>\n    </div>\n  ",
+            template: "\n    <div\n      visibilityObserver\n      (visible)=\"recalculate()\">\n      <datatable-header\n        *ngIf=\"headerHeight\"\n        [sorts]=\"sorts\"\n        [sortType]=\"sortType\"\n        [scrollbarH]=\"scrollbarH\"\n        [innerWidth]=\"_innerWidth\"\n        [offsetX]=\"_offsetX | async\"\n        [dealsWithGroup]=\"groupedRows\"\n        [columns]=\"_internalColumns\"\n        [headerHeight]=\"headerHeight\"\n        [reorderable]=\"reorderable\"\n        [sortAscendingIcon]=\"cssClasses.sortAscending\"\n        [sortDescendingIcon]=\"cssClasses.sortDescending\"\n        [allRowsSelected]=\"allRowsSelected\"\n        [selectionType]=\"selectionType\"\n        (sort)=\"onColumnSort($event)\"\n        (resize)=\"onColumnResize($event)\"\n        (reorder)=\"onColumnReorder($event)\"\n        (select)=\"onHeaderSelect($event)\"\n        (columnContextmenu)=\"onColumnContextmenu($event)\">\n      </datatable-header>\n      <datatable-body\n        [groupRowsBy]=\"groupRowsBy\"\n        [groupedRows]=\"groupedRows\"\n        [rows]=\"_internalRows\"\n        [groupExpansionDefault]=\"groupExpansionDefault\"\n        [scrollbarV]=\"scrollbarV\"\n        [scrollbarH]=\"scrollbarH\"\n        [virtualization]=\"virtualization\"\n        [loadingIndicator]=\"loadingIndicator\"\n        [externalPaging]=\"externalPaging\"\n        [rowHeight]=\"rowHeight\"\n        [rowCount]=\"rowCount\"\n        [offset]=\"offset\"\n        [trackByProp]=\"trackByProp\"\n        [columns]=\"_internalColumns\"\n        [pageSize]=\"pageSize\"\n        [offsetX]=\"_offsetX | async\"\n        [rowDetail]=\"rowDetail\"\n        [groupHeader]=\"groupHeader\"\n        [selected]=\"selected\"\n        [innerWidth]=\"_innerWidth\"\n        [bodyHeight]=\"bodyHeight\"\n        [selectionType]=\"selectionType\"\n        [emptyMessage]=\"messages.emptyMessage\"\n        [rowIdentity]=\"rowIdentity\"\n        [rowClass]=\"rowClass\"\n        [selectCheck]=\"selectCheck\"\n        [displayCheck]=\"displayCheck\"\n        (page)=\"onBodyPage($event)\"\n        (activate)=\"activate.emit($event)\"\n        (rowContextmenu)=\"onRowContextmenu($event)\"\n        (select)=\"onBodySelect($event)\"\n        (scroll)=\"onBodyScroll($event)\">\n      </datatable-body>\n      <datatable-column-footer\n        [offsetX]=\"_offsetX | async\"\n        [innerWidth]=\"_innerWidth\"\n        [columns]=\"_internalColumns\"\n        [rows]=\"_internalRows\">\n      </datatable-column-footer>\n      <datatable-footer\n        *ngIf=\"footerHeight\"\n        [rowCount]=\"rowCount\"\n        [pageSize]=\"pageSize\"\n        [offset]=\"offset\"\n        [footerHeight]=\"footerHeight\"\n        [footerTemplate]=\"footer\"\n        [totalMessage]=\"messages.totalMessage\"\n        [pagerLeftArrowIcon]=\"cssClasses.pagerLeftArrow\"\n        [pagerRightArrowIcon]=\"cssClasses.pagerRightArrow\"\n        [pagerPreviousIcon]=\"cssClasses.pagerPrevious\"\n        [selectedCount]=\"selected.length\"\n        [selectedMessage]=\"!!selectionType && messages.selectedMessage\"\n        [pagerNextIcon]=\"cssClasses.pagerNext\"\n        (page)=\"onFooterPage($event)\">\n      </datatable-footer>\n    </div>\n  ",
             changeDetection: core_1.ChangeDetectionStrategy.OnPush,
             encapsulation: core_1.ViewEncapsulation.None,
             styles: [__webpack_require__("./src/components/datatable.component.scss")],
@@ -4539,6 +4846,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __export(__webpack_require__("./src/components/datatable.component.ts"));
 __export(__webpack_require__("./src/components/header/index.ts"));
 __export(__webpack_require__("./src/components/body/index.ts"));
+__export(__webpack_require__("./src/components/column-footer/index.ts"));
 __export(__webpack_require__("./src/components/footer/index.ts"));
 __export(__webpack_require__("./src/components/columns/index.ts"));
 __export(__webpack_require__("./src/components/row-detail/index.ts"));
@@ -4728,7 +5036,10 @@ var NgxDatatableModule = /** @class */ (function () {
                 components_1.DataTableColumnHeaderDirective,
                 components_1.DataTableColumnCellDirective,
                 components_1.DatatableFooterDirective,
-                components_1.DatatableGroupHeaderTemplateDirective
+                components_1.DatatableGroupHeaderTemplateDirective,
+                components_1.DataTableColumnFooterComponent,
+                components_1.DataTableColumnFooterCellComponent,
+                components_1.DataTableColumnFooterDirective,
             ],
             exports: [
                 components_1.DatatableComponent,
@@ -4738,6 +5049,7 @@ var NgxDatatableModule = /** @class */ (function () {
                 components_1.DataTableColumnDirective,
                 components_1.DataTableColumnHeaderDirective,
                 components_1.DataTableColumnCellDirective,
+                components_1.DataTableColumnFooterDirective,
                 components_1.DataTableFooterTemplateDirective,
                 components_1.DatatableFooterDirective,
                 components_1.DataTablePagerComponent,
@@ -5778,6 +6090,9 @@ function translateTemplates(templates) {
         }
         if (temp.cellTemplate) {
             col.cellTemplate = temp.cellTemplate;
+        }
+        if (temp.footerTemplate) {
+            col.footerTemplate = temp.footerTemplate;
         }
         result.push(col);
     }

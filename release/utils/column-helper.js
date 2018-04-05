@@ -70,6 +70,9 @@ function translateTemplates(templates) {
         if (temp.cellTemplate) {
             col.cellTemplate = temp.cellTemplate;
         }
+        if (temp.footerTemplate) {
+            col.footerTemplate = temp.footerTemplate;
+        }
         result.push(col);
     }
     return result;
